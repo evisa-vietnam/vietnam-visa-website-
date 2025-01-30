@@ -1,0 +1,242 @@
+Html code
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vietnam eVisa Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Vietnam eVisa</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#apply">Apply Now</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Welcome to Vietnam eVisa Portal</h2>
+        <p>Your easiest and fastest way to apply for a Vietnam visa online</p>
+    </section>
+
+    <section id="about">
+        <h2>About Vietnam eVisa</h2>
+        <p>The Vietnam eVisa is an electronic visa that allows foreign visitors to enter Vietnam. The application process is simple, fast, and secure.</p>
+    </section>
+
+    <section id="apply" class="apply-section">
+        <h2>Apply for eVisa</h2>
+        <p>Start your application process by filling out the form below.</p>
+        <form action="#" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="passport">Passport Number:</label>
+            <input type="text" id="passport" name="passport" required>
+            
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">Apply Now</button>
+        </form>
+    </section>
+
+    <section id="faq">
+        <h2>Frequently Asked Questions</h2>
+        <ul>
+            <li><strong>How long does it take to process the eVisa?</strong><br>Processing usually takes about 3 business days.</li>
+            <li><strong>Can I apply for an eVisa upon arrival?</strong><br>No, the eVisa must be obtained before arrival.</li>
+            <li><strong>What is the validity period of the Vietnam eVisa?</strong><br>The eVisa is valid for 30 days from the date of entry.</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you need any assistance with your application, feel free to reach out to us!</p>
+        <address>
+            Email: support@vietnamvisa.com <br>
+            Phone: +84 123 456 789
+        </address>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Vietnam eVisa. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+=======================================================================================================
+Css code
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav .logo h1 {
+    color: white;
+    font-size: 24px;
+}
+
+nav .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+nav .nav-links li {
+    margin-left: 20px;
+}
+
+nav .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h2 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* About Section */
+#about {
+    background-color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Apply Section */
+.apply-section {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+}
+
+.apply-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.apply-section form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.apply-section label {
+    margin-bottom: 10px;
+}
+
+.apply-section input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.apply-section button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.apply-section button:hover {
+    background-color: #45a049;
+}
+
+/* FAQ Section */
+#faq {
+    padding: 40px 20px;
+    background-color: white;
+}
+
+#faq h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#faq ul {
+    list-style: none;
+}
+
+#faq li {
+    margin-bottom: 15px;
+}
+
+#faq strong {
+    font-weight: bold;
+}
+
+/* Contact Section */
+#contact {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
